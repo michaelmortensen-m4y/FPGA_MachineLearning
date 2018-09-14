@@ -1,0 +1,14 @@
+In HLS:
+- Make sure to choose 10ns as clockperiod
+
+In Vivado before generating bitstream:
+- Remember to enable AXI coherent 64-bit slave interface by doubleclicking the zynq block -> PS-PL configuration -> ACP Slave AXI Interface -> S AXI ACP interface
+- In the address editor make sure everything is mapped and included (if something is excluded, right click and press include)
+- If timing constraints is not met change the PL frequency from 100MHz to 90MHz (or lower)
+
+In SDK before programming the FPGA:
+- Make sure stack and heap sizes are large enought for your data. If not go to Xilinx tools -> Generate Linker Script and change the default 1KB to something larger (For our 32x32 matrix multiply example the default 1KB for stack and heap are insufficient, change to 10KB for both)
+
+
+
+

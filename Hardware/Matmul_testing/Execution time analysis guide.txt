@@ -1,0 +1,68 @@
+
+Open the block design in vivado
+1. Finish the design
+2. Add the "AXI timer" IP block
+3. Run connection automatitation
+4. Doubleclick the AXI timer IP block
+5. Unselect the "Enable Timer 2" option
+6. Select the "Enable 64-bit mode" option
+7. Validate, save, and generate bitstream
+8. Export hardware
+9. Open project in SDK
+10. In the SDK C main.c file paste the following code sections into the main function (works for zedboard) (see the template for further information):
+
+//*** Needed for timer hardware
+#include "xil_types.h"
+#include "xtmrctr.h"
+#include "xparameters.h"
+
+
+//*** Initialize the timer hardware
+XTmrCtr m_AxiTimer;
+unsigned int m_tickCounter1;
+unsigned int m_tickCounter2;
+unsigned int init_time, curr_time, calibration;
+double m_clockPeriodSeconds;
+double m_timerClockFreq;
+double elapsedTimeInSeconds_SW;
+double elapsedTimeInSeconds_HW;
+double speedup;
+unsigned int elapsedClockCycles_SW;
+unsigned int elapsedClockCycles_HW;
+XTmrCtr_Initialize(&m_AxiTimer, XPAR_TMRCTR_0_DEVICE_ID);
+XTmrCtr_SetOptions(&m_AxiTimer, XPAR_AXI_TIMER_0_DEVICE_ID, XTC_ENABLE_ALL_OPTION);
+// Get the clock period in seconds
+m_timerClockFreq = (double) XPAR_AXI_TIMER_0_CLOCK_FREQ_HZ;
+m_clockPeriodSeconds = (double)1/m_timerClockFreq;
+// Calibrate timer
+XTmrCtr_Reset(&m_AxiTimer, XPAR_AXI_TIMER_0_DEVICE_ID);
+init_time = XTmrCtr_GetValue(&m_AxiTimer, XPAR_AXI_TIMER_0_DEVICE_ID);
+curr_time = XTmrCtr_GetValue(&m_AxiTimer, XPAR_AXI_TIMER_0_DEVICE_ID);
+calibration = curr_time - init_time;
+printf("Calibrating the timer:\n");
+printf("init_time: %d cycles\n", init_time);
+printf("curr_time: %d cycles\n", curr_time);
+printf("calibration: %d cycles\n", calibration);
+XTmrCtr_Reset(&m_AxiTimer, XPAR_AXI_TIMER_0_DEVICE_ID);
+m_tickCounter1 = XTmrCtr_GetValue(&m_AxiTimer, XPAR_AXI_TIMER_0_DEVICE_ID);
+for (int i = 0; i < 10000; i++);
+m_tickCounter2 = XTmrCtr_GetValue(&m_AxiTimer, XPAR_AXI_TIMER_0_DEVICE_ID);
+elapsedClockCycles_SW = m_tickCounter2 - m_tickCounter1 - calibration;
+printf("Loop time for %d iterations is %d cycles\n\n", 10000, elapsedClockCycles_SW);
+
+
+
+//*** Start timer 0
+XTmrCtr_Reset(&m_AxiTimer,0);
+m_tickCounter1 = XTmrCtr_GetValue(&m_AxiTimer, 0);
+XTmrCtr_Start(&m_AxiTimer, 0);
+
+
+//*** Stop timer 0
+XTmrCtr_Stop(&m_AxiTimer,0);
+m_tickCounter2 = XTmrCtr_GetValue(&m_AxiTimer, 0);
+elapsedClockCycles_SW = m_tickCounter2 - m_tickCounter1 - calibration;
+elapsedTimeInSeconds_SW = (double) elapsedClockCycles_SW * m_clockPeriodSeconds;
+
+11. The variable "elapsedTimeInSeconds" holds the value for execution time in seconds between timer start and stop
+12. If "xtmrctr.h" is not found close SDK and delete the SDK project folder and in vivado reexport hardware and launch SDK and try again

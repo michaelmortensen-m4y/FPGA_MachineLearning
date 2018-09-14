@@ -1,0 +1,18 @@
+********** Matrix Multiply **********
+
+Running on SW:
+Testing SW started
+No error in SW calculation!
+Run time for SW on ARM Processor = 0.000140 seconds (13951 clock cycles)
+
+
+Resetting variables
+
+Running on HW:
+Testing HW started
+No error in HW calculation!
+Run time for HW on PL = 0.000077 seconds (7737 clock cycles)
+
+Speedup = 1.803154
+
+*************************************

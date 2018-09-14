@@ -1,0 +1,7 @@
+Matrix multiplication as a Zynq coprocessor
+Follow the PPT to understand the process
+
+by G.Sutter for teaching purposes
+Revision History:
+- March 2014, for Vivado HLS 2013.3
+- June 2014, for Vivado HLS 2014.1

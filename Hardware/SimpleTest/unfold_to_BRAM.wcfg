@@ -1,0 +1,1229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="infer_core.wdb" id="1">
+         <top_modules>
+            <top_module name="apatb_infer_core_top" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+   </zoom_setting>
+   <column_width_setting>
+   </column_width_setting>
+   <WVObjectSize size="2" />
+   <wvobject fp_name="group1" type="group">
+      <obj_property name="label">Design Top Signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group2" type="group">
+         <obj_property name="label">C Outputs</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group3" type="group">
+            <obj_property name="label">X3(bram)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/X3_Rst_B" type="logic">
+               <obj_property name="ElementShortName">X3_Rst_B</obj_property>
+               <obj_property name="ObjectShortName">X3_Rst_B</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/X3_Clk_B" type="logic">
+               <obj_property name="ElementShortName">X3_Clk_B</obj_property>
+               <obj_property name="ObjectShortName">X3_Clk_B</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/X3_Dout_B" type="array">
+               <obj_property name="ElementShortName">X3_Dout_B[31:0]</obj_property>
+               <obj_property name="ObjectShortName">X3_Dout_B[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/X3_Din_B" type="array">
+               <obj_property name="ElementShortName">X3_Din_B[31:0]</obj_property>
+               <obj_property name="ObjectShortName">X3_Din_B[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/X3_WEN_B" type="array">
+               <obj_property name="ElementShortName">X3_WEN_B[3:0]</obj_property>
+               <obj_property name="ObjectShortName">X3_WEN_B[3:0]</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/X3_EN_B" type="logic">
+               <obj_property name="ElementShortName">X3_EN_B</obj_property>
+               <obj_property name="ObjectShortName">X3_EN_B</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/X3_Addr_B" type="array">
+               <obj_property name="ElementShortName">X3_Addr_B[31:0]</obj_property>
+               <obj_property name="ObjectShortName">X3_Addr_B[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/X3_Rst_A" type="logic">
+               <obj_property name="ElementShortName">X3_Rst_A</obj_property>
+               <obj_property name="ObjectShortName">X3_Rst_A</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/X3_Clk_A" type="logic">
+               <obj_property name="ElementShortName">X3_Clk_A</obj_property>
+               <obj_property name="ObjectShortName">X3_Clk_A</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/X3_Dout_A" type="array">
+               <obj_property name="ElementShortName">X3_Dout_A[31:0]</obj_property>
+               <obj_property name="ObjectShortName">X3_Dout_A[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/X3_Din_A" type="array">
+               <obj_property name="ElementShortName">X3_Din_A[31:0]</obj_property>
+               <obj_property name="ObjectShortName">X3_Din_A[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/X3_WEN_A" type="array">
+               <obj_property name="ElementShortName">X3_WEN_A[3:0]</obj_property>
+               <obj_property name="ObjectShortName">X3_WEN_A[3:0]</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/X3_EN_A" type="logic">
+               <obj_property name="ElementShortName">X3_EN_A</obj_property>
+               <obj_property name="ObjectShortName">X3_EN_A</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/X3_Addr_A" type="array">
+               <obj_property name="ElementShortName">X3_Addr_A[31:0]</obj_property>
+               <obj_property name="ObjectShortName">X3_Addr_A[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group18" type="group">
+            <obj_property name="label">X2(bram)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/X2_Rst_B" type="logic">
+               <obj_property name="ElementShortName">X2_Rst_B</obj_property>
+               <obj_property name="ObjectShortName">X2_Rst_B</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/X2_Clk_B" type="logic">
+               <obj_property name="ElementShortName">X2_Clk_B</obj_property>
+               <obj_property name="ObjectShortName">X2_Clk_B</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/X2_Dout_B" type="array">
+               <obj_property name="ElementShortName">X2_Dout_B[31:0]</obj_property>
+               <obj_property name="ObjectShortName">X2_Dout_B[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/X2_Din_B" type="array">
+               <obj_property name="ElementShortName">X2_Din_B[31:0]</obj_property>
+               <obj_property name="ObjectShortName">X2_Din_B[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/X2_WEN_B" type="array">
+               <obj_property name="ElementShortName">X2_WEN_B[3:0]</obj_property>
+               <obj_property name="ObjectShortName">X2_WEN_B[3:0]</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/X2_EN_B" type="logic">
+               <obj_property name="ElementShortName">X2_EN_B</obj_property>
+               <obj_property name="ObjectShortName">X2_EN_B</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/X2_Addr_B" type="array">
+               <obj_property name="ElementShortName">X2_Addr_B[31:0]</obj_property>
+               <obj_property name="ObjectShortName">X2_Addr_B[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/X2_Rst_A" type="logic">
+               <obj_property name="ElementShortName">X2_Rst_A</obj_property>
+               <obj_property name="ObjectShortName">X2_Rst_A</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/X2_Clk_A" type="logic">
+               <obj_property name="ElementShortName">X2_Clk_A</obj_property>
+               <obj_property name="ObjectShortName">X2_Clk_A</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/X2_Dout_A" type="array">
+               <obj_property name="ElementShortName">X2_Dout_A[31:0]</obj_property>
+               <obj_property name="ObjectShortName">X2_Dout_A[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/X2_Din_A" type="array">
+               <obj_property name="ElementShortName">X2_Din_A[31:0]</obj_property>
+               <obj_property name="ObjectShortName">X2_Din_A[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/X2_WEN_A" type="array">
+               <obj_property name="ElementShortName">X2_WEN_A[3:0]</obj_property>
+               <obj_property name="ObjectShortName">X2_WEN_A[3:0]</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/X2_EN_A" type="logic">
+               <obj_property name="ElementShortName">X2_EN_A</obj_property>
+               <obj_property name="ObjectShortName">X2_EN_A</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/X2_Addr_A" type="array">
+               <obj_property name="ElementShortName">X2_Addr_A[31:0]</obj_property>
+               <obj_property name="ObjectShortName">X2_Addr_A[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group33" type="group">
+            <obj_property name="label">X1(bram)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/X1_Rst_B" type="logic">
+               <obj_property name="ElementShortName">X1_Rst_B</obj_property>
+               <obj_property name="ObjectShortName">X1_Rst_B</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/X1_Clk_B" type="logic">
+               <obj_property name="ElementShortName">X1_Clk_B</obj_property>
+               <obj_property name="ObjectShortName">X1_Clk_B</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/X1_Dout_B" type="array">
+               <obj_property name="ElementShortName">X1_Dout_B[31:0]</obj_property>
+               <obj_property name="ObjectShortName">X1_Dout_B[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/X1_Din_B" type="array">
+               <obj_property name="ElementShortName">X1_Din_B[31:0]</obj_property>
+               <obj_property name="ObjectShortName">X1_Din_B[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/X1_WEN_B" type="array">
+               <obj_property name="ElementShortName">X1_WEN_B[3:0]</obj_property>
+               <obj_property name="ObjectShortName">X1_WEN_B[3:0]</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/X1_EN_B" type="logic">
+               <obj_property name="ElementShortName">X1_EN_B</obj_property>
+               <obj_property name="ObjectShortName">X1_EN_B</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/X1_Addr_B" type="array">
+               <obj_property name="ElementShortName">X1_Addr_B[31:0]</obj_property>
+               <obj_property name="ObjectShortName">X1_Addr_B[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/X1_Rst_A" type="logic">
+               <obj_property name="ElementShortName">X1_Rst_A</obj_property>
+               <obj_property name="ObjectShortName">X1_Rst_A</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/X1_Clk_A" type="logic">
+               <obj_property name="ElementShortName">X1_Clk_A</obj_property>
+               <obj_property name="ObjectShortName">X1_Clk_A</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/X1_Dout_A" type="array">
+               <obj_property name="ElementShortName">X1_Dout_A[31:0]</obj_property>
+               <obj_property name="ObjectShortName">X1_Dout_A[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/X1_Din_A" type="array">
+               <obj_property name="ElementShortName">X1_Din_A[31:0]</obj_property>
+               <obj_property name="ObjectShortName">X1_Din_A[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/X1_WEN_A" type="array">
+               <obj_property name="ElementShortName">X1_WEN_A[3:0]</obj_property>
+               <obj_property name="ObjectShortName">X1_WEN_A[3:0]</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/X1_EN_A" type="logic">
+               <obj_property name="ElementShortName">X1_EN_A</obj_property>
+               <obj_property name="ObjectShortName">X1_EN_A</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/X1_Addr_A" type="array">
+               <obj_property name="ElementShortName">X1_Addr_A[31:0]</obj_property>
+               <obj_property name="ObjectShortName">X1_Addr_A[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group48" type="group">
+            <obj_property name="label">error(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/error" type="logic">
+               <obj_property name="ElementShortName">error</obj_property>
+               <obj_property name="ObjectShortName">error</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group50" type="group">
+         <obj_property name="label">C Inputs</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group51" type="group">
+            <obj_property name="label">in_stream(axis)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/in_stream_3_3_TREADY" type="logic">
+               <obj_property name="ElementShortName">in_stream_3_3_TREADY</obj_property>
+               <obj_property name="ObjectShortName">in_stream_3_3_TREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/in_stream_3_3_TVALID" type="logic">
+               <obj_property name="ElementShortName">in_stream_3_3_TVALID</obj_property>
+               <obj_property name="ObjectShortName">in_stream_3_3_TVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/in_stream_3_3_TDATA" type="array">
+               <obj_property name="ElementShortName">in_stream_3_3_TDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">in_stream_3_3_TDATA[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/in_stream_3_2_TREADY" type="logic">
+               <obj_property name="ElementShortName">in_stream_3_2_TREADY</obj_property>
+               <obj_property name="ObjectShortName">in_stream_3_2_TREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/in_stream_3_2_TVALID" type="logic">
+               <obj_property name="ElementShortName">in_stream_3_2_TVALID</obj_property>
+               <obj_property name="ObjectShortName">in_stream_3_2_TVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/in_stream_3_2_TDATA" type="array">
+               <obj_property name="ElementShortName">in_stream_3_2_TDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">in_stream_3_2_TDATA[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/in_stream_3_1_TREADY" type="logic">
+               <obj_property name="ElementShortName">in_stream_3_1_TREADY</obj_property>
+               <obj_property name="ObjectShortName">in_stream_3_1_TREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/in_stream_3_1_TVALID" type="logic">
+               <obj_property name="ElementShortName">in_stream_3_1_TVALID</obj_property>
+               <obj_property name="ObjectShortName">in_stream_3_1_TVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/in_stream_3_1_TDATA" type="array">
+               <obj_property name="ElementShortName">in_stream_3_1_TDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">in_stream_3_1_TDATA[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/in_stream_3_0_TREADY" type="logic">
+               <obj_property name="ElementShortName">in_stream_3_0_TREADY</obj_property>
+               <obj_property name="ObjectShortName">in_stream_3_0_TREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/in_stream_3_0_TVALID" type="logic">
+               <obj_property name="ElementShortName">in_stream_3_0_TVALID</obj_property>
+               <obj_property name="ObjectShortName">in_stream_3_0_TVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/in_stream_3_0_TDATA" type="array">
+               <obj_property name="ElementShortName">in_stream_3_0_TDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">in_stream_3_0_TDATA[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/in_stream_2_3_TREADY" type="logic">
+               <obj_property name="ElementShortName">in_stream_2_3_TREADY</obj_property>
+               <obj_property name="ObjectShortName">in_stream_2_3_TREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/in_stream_2_3_TVALID" type="logic">
+               <obj_property name="ElementShortName">in_stream_2_3_TVALID</obj_property>
+               <obj_property name="ObjectShortName">in_stream_2_3_TVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/in_stream_2_3_TDATA" type="array">
+               <obj_property name="ElementShortName">in_stream_2_3_TDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">in_stream_2_3_TDATA[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/in_stream_2_2_TREADY" type="logic">
+               <obj_property name="ElementShortName">in_stream_2_2_TREADY</obj_property>
+               <obj_property name="ObjectShortName">in_stream_2_2_TREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/in_stream_2_2_TVALID" type="logic">
+               <obj_property name="ElementShortName">in_stream_2_2_TVALID</obj_property>
+               <obj_property name="ObjectShortName">in_stream_2_2_TVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/in_stream_2_2_TDATA" type="array">
+               <obj_property name="ElementShortName">in_stream_2_2_TDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">in_stream_2_2_TDATA[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/in_stream_2_1_TREADY" type="logic">
+               <obj_property name="ElementShortName">in_stream_2_1_TREADY</obj_property>
+               <obj_property name="ObjectShortName">in_stream_2_1_TREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/in_stream_2_1_TVALID" type="logic">
+               <obj_property name="ElementShortName">in_stream_2_1_TVALID</obj_property>
+               <obj_property name="ObjectShortName">in_stream_2_1_TVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/in_stream_2_1_TDATA" type="array">
+               <obj_property name="ElementShortName">in_stream_2_1_TDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">in_stream_2_1_TDATA[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/in_stream_2_0_TREADY" type="logic">
+               <obj_property name="ElementShortName">in_stream_2_0_TREADY</obj_property>
+               <obj_property name="ObjectShortName">in_stream_2_0_TREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/in_stream_2_0_TVALID" type="logic">
+               <obj_property name="ElementShortName">in_stream_2_0_TVALID</obj_property>
+               <obj_property name="ObjectShortName">in_stream_2_0_TVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/in_stream_2_0_TDATA" type="array">
+               <obj_property name="ElementShortName">in_stream_2_0_TDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">in_stream_2_0_TDATA[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/in_stream_1_3_TREADY" type="logic">
+               <obj_property name="ElementShortName">in_stream_1_3_TREADY</obj_property>
+               <obj_property name="ObjectShortName">in_stream_1_3_TREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/in_stream_1_3_TVALID" type="logic">
+               <obj_property name="ElementShortName">in_stream_1_3_TVALID</obj_property>
+               <obj_property name="ObjectShortName">in_stream_1_3_TVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/in_stream_1_3_TDATA" type="array">
+               <obj_property name="ElementShortName">in_stream_1_3_TDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">in_stream_1_3_TDATA[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/in_stream_1_2_TREADY" type="logic">
+               <obj_property name="ElementShortName">in_stream_1_2_TREADY</obj_property>
+               <obj_property name="ObjectShortName">in_stream_1_2_TREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/in_stream_1_2_TVALID" type="logic">
+               <obj_property name="ElementShortName">in_stream_1_2_TVALID</obj_property>
+               <obj_property name="ObjectShortName">in_stream_1_2_TVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/in_stream_1_2_TDATA" type="array">
+               <obj_property name="ElementShortName">in_stream_1_2_TDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">in_stream_1_2_TDATA[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/in_stream_1_1_TREADY" type="logic">
+               <obj_property name="ElementShortName">in_stream_1_1_TREADY</obj_property>
+               <obj_property name="ObjectShortName">in_stream_1_1_TREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/in_stream_1_1_TVALID" type="logic">
+               <obj_property name="ElementShortName">in_stream_1_1_TVALID</obj_property>
+               <obj_property name="ObjectShortName">in_stream_1_1_TVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/in_stream_1_1_TDATA" type="array">
+               <obj_property name="ElementShortName">in_stream_1_1_TDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">in_stream_1_1_TDATA[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/in_stream_1_0_TREADY" type="logic">
+               <obj_property name="ElementShortName">in_stream_1_0_TREADY</obj_property>
+               <obj_property name="ObjectShortName">in_stream_1_0_TREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/in_stream_1_0_TVALID" type="logic">
+               <obj_property name="ElementShortName">in_stream_1_0_TVALID</obj_property>
+               <obj_property name="ObjectShortName">in_stream_1_0_TVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/in_stream_1_0_TDATA" type="array">
+               <obj_property name="ElementShortName">in_stream_1_0_TDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">in_stream_1_0_TDATA[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/in_stream_0_3_TREADY" type="logic">
+               <obj_property name="ElementShortName">in_stream_0_3_TREADY</obj_property>
+               <obj_property name="ObjectShortName">in_stream_0_3_TREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/in_stream_0_3_TVALID" type="logic">
+               <obj_property name="ElementShortName">in_stream_0_3_TVALID</obj_property>
+               <obj_property name="ObjectShortName">in_stream_0_3_TVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/in_stream_0_3_TDATA" type="array">
+               <obj_property name="ElementShortName">in_stream_0_3_TDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">in_stream_0_3_TDATA[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/in_stream_0_2_TREADY" type="logic">
+               <obj_property name="ElementShortName">in_stream_0_2_TREADY</obj_property>
+               <obj_property name="ObjectShortName">in_stream_0_2_TREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/in_stream_0_2_TVALID" type="logic">
+               <obj_property name="ElementShortName">in_stream_0_2_TVALID</obj_property>
+               <obj_property name="ObjectShortName">in_stream_0_2_TVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/in_stream_0_2_TDATA" type="array">
+               <obj_property name="ElementShortName">in_stream_0_2_TDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">in_stream_0_2_TDATA[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/in_stream_0_1_TREADY" type="logic">
+               <obj_property name="ElementShortName">in_stream_0_1_TREADY</obj_property>
+               <obj_property name="ObjectShortName">in_stream_0_1_TREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/in_stream_0_1_TVALID" type="logic">
+               <obj_property name="ElementShortName">in_stream_0_1_TVALID</obj_property>
+               <obj_property name="ObjectShortName">in_stream_0_1_TVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/in_stream_0_1_TDATA" type="array">
+               <obj_property name="ElementShortName">in_stream_0_1_TDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">in_stream_0_1_TDATA[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/in_stream_0_0_TREADY" type="logic">
+               <obj_property name="ElementShortName">in_stream_0_0_TREADY</obj_property>
+               <obj_property name="ObjectShortName">in_stream_0_0_TREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/in_stream_0_0_TVALID" type="logic">
+               <obj_property name="ElementShortName">in_stream_0_0_TVALID</obj_property>
+               <obj_property name="ObjectShortName">in_stream_0_0_TVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/in_stream_0_0_TDATA" type="array">
+               <obj_property name="ElementShortName">in_stream_0_0_TDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">in_stream_0_0_TDATA[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group100" type="group">
+         <obj_property name="label">Block-level IO Handshake</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/ap_start" type="logic">
+            <obj_property name="ElementShortName">ap_start</obj_property>
+            <obj_property name="ObjectShortName">ap_start</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/ap_done" type="logic">
+            <obj_property name="ElementShortName">ap_done</obj_property>
+            <obj_property name="ObjectShortName">ap_done</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/ap_idle" type="logic">
+            <obj_property name="ElementShortName">ap_idle</obj_property>
+            <obj_property name="ObjectShortName">ap_idle</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/ap_ready" type="logic">
+            <obj_property name="ElementShortName">ap_ready</obj_property>
+            <obj_property name="ObjectShortName">ap_ready</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group105" type="group">
+         <obj_property name="label">Reset</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/ap_rst_n" type="logic">
+            <obj_property name="ElementShortName">ap_rst_n</obj_property>
+            <obj_property name="ObjectShortName">ap_rst_n</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group107" type="group">
+         <obj_property name="label">Clock</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_infer_core_top/AESL_inst_infer_core/ap_clk" type="logic">
+            <obj_property name="ElementShortName">ap_clk</obj_property>
+            <obj_property name="ObjectShortName">ap_clk</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group109" type="group">
+      <obj_property name="label">Test Bench Signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group110" type="group">
+         <obj_property name="label">Internal Signals</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group111" type="group">
+            <obj_property name="label">Simulation Status</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_infer_core_top/AUTOTB_TRANSACTION_NUM" type="other">
+               <obj_property name="ElementShortName">AUTOTB_TRANSACTION_NUM</obj_property>
+               <obj_property name="ObjectShortName">AUTOTB_TRANSACTION_NUM</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/ready_cnt" type="array">
+               <obj_property name="ElementShortName">ready_cnt[31:0]</obj_property>
+               <obj_property name="ObjectShortName">ready_cnt[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/done_cnt" type="array">
+               <obj_property name="ElementShortName">done_cnt[31:0]</obj_property>
+               <obj_property name="ObjectShortName">done_cnt[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group112" type="group">
+            <obj_property name="label">Port Depth</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_infer_core_top/LENGTH_in_stream_0_0" type="other">
+               <obj_property name="ElementShortName">LENGTH_in_stream_0_0</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_in_stream_0_0</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/LENGTH_in_stream_0_1" type="other">
+               <obj_property name="ElementShortName">LENGTH_in_stream_0_1</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_in_stream_0_1</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/LENGTH_in_stream_0_2" type="other">
+               <obj_property name="ElementShortName">LENGTH_in_stream_0_2</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_in_stream_0_2</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/LENGTH_in_stream_0_3" type="other">
+               <obj_property name="ElementShortName">LENGTH_in_stream_0_3</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_in_stream_0_3</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/LENGTH_in_stream_1_0" type="other">
+               <obj_property name="ElementShortName">LENGTH_in_stream_1_0</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_in_stream_1_0</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/LENGTH_in_stream_1_1" type="other">
+               <obj_property name="ElementShortName">LENGTH_in_stream_1_1</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_in_stream_1_1</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/LENGTH_in_stream_1_2" type="other">
+               <obj_property name="ElementShortName">LENGTH_in_stream_1_2</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_in_stream_1_2</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/LENGTH_in_stream_1_3" type="other">
+               <obj_property name="ElementShortName">LENGTH_in_stream_1_3</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_in_stream_1_3</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/LENGTH_in_stream_2_0" type="other">
+               <obj_property name="ElementShortName">LENGTH_in_stream_2_0</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_in_stream_2_0</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/LENGTH_in_stream_2_1" type="other">
+               <obj_property name="ElementShortName">LENGTH_in_stream_2_1</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_in_stream_2_1</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/LENGTH_in_stream_2_2" type="other">
+               <obj_property name="ElementShortName">LENGTH_in_stream_2_2</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_in_stream_2_2</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/LENGTH_in_stream_2_3" type="other">
+               <obj_property name="ElementShortName">LENGTH_in_stream_2_3</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_in_stream_2_3</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/LENGTH_in_stream_3_0" type="other">
+               <obj_property name="ElementShortName">LENGTH_in_stream_3_0</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_in_stream_3_0</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/LENGTH_in_stream_3_1" type="other">
+               <obj_property name="ElementShortName">LENGTH_in_stream_3_1</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_in_stream_3_1</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/LENGTH_in_stream_3_2" type="other">
+               <obj_property name="ElementShortName">LENGTH_in_stream_3_2</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_in_stream_3_2</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/LENGTH_in_stream_3_3" type="other">
+               <obj_property name="ElementShortName">LENGTH_in_stream_3_3</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_in_stream_3_3</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/LENGTH_error" type="other">
+               <obj_property name="ElementShortName">LENGTH_error</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_error</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/LENGTH_X1" type="other">
+               <obj_property name="ElementShortName">LENGTH_X1</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_X1</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/LENGTH_X2" type="other">
+               <obj_property name="ElementShortName">LENGTH_X2</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_X2</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/LENGTH_X3" type="other">
+               <obj_property name="ElementShortName">LENGTH_X3</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_X3</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group136" type="group">
+         <obj_property name="label">C Outputs</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group137" type="group">
+            <obj_property name="label">X3(bram)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_infer_core_top/X3_RST_B" type="logic">
+               <obj_property name="ElementShortName">X3_RST_B</obj_property>
+               <obj_property name="ObjectShortName">X3_RST_B</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/X3_CLK_B" type="logic">
+               <obj_property name="ElementShortName">X3_CLK_B</obj_property>
+               <obj_property name="ObjectShortName">X3_CLK_B</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/X3_DOUT_B" type="array">
+               <obj_property name="ElementShortName">X3_DOUT_B[31:0]</obj_property>
+               <obj_property name="ObjectShortName">X3_DOUT_B[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/X3_DIN_B" type="array">
+               <obj_property name="ElementShortName">X3_DIN_B[31:0]</obj_property>
+               <obj_property name="ObjectShortName">X3_DIN_B[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/X3_WEN_B" type="array">
+               <obj_property name="ElementShortName">X3_WEN_B[3:0]</obj_property>
+               <obj_property name="ObjectShortName">X3_WEN_B[3:0]</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/X3_EN_B" type="logic">
+               <obj_property name="ElementShortName">X3_EN_B</obj_property>
+               <obj_property name="ObjectShortName">X3_EN_B</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/X3_ADDR_B" type="array">
+               <obj_property name="ElementShortName">X3_ADDR_B[31:0]</obj_property>
+               <obj_property name="ObjectShortName">X3_ADDR_B[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/X3_RST_A" type="logic">
+               <obj_property name="ElementShortName">X3_RST_A</obj_property>
+               <obj_property name="ObjectShortName">X3_RST_A</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/X3_CLK_A" type="logic">
+               <obj_property name="ElementShortName">X3_CLK_A</obj_property>
+               <obj_property name="ObjectShortName">X3_CLK_A</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/X3_DOUT_A" type="array">
+               <obj_property name="ElementShortName">X3_DOUT_A[31:0]</obj_property>
+               <obj_property name="ObjectShortName">X3_DOUT_A[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/X3_DIN_A" type="array">
+               <obj_property name="ElementShortName">X3_DIN_A[31:0]</obj_property>
+               <obj_property name="ObjectShortName">X3_DIN_A[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/X3_WEN_A" type="array">
+               <obj_property name="ElementShortName">X3_WEN_A[3:0]</obj_property>
+               <obj_property name="ObjectShortName">X3_WEN_A[3:0]</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/X3_EN_A" type="logic">
+               <obj_property name="ElementShortName">X3_EN_A</obj_property>
+               <obj_property name="ObjectShortName">X3_EN_A</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/X3_ADDR_A" type="array">
+               <obj_property name="ElementShortName">X3_ADDR_A[31:0]</obj_property>
+               <obj_property name="ObjectShortName">X3_ADDR_A[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group152" type="group">
+            <obj_property name="label">X2(bram)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_infer_core_top/X2_RST_B" type="logic">
+               <obj_property name="ElementShortName">X2_RST_B</obj_property>
+               <obj_property name="ObjectShortName">X2_RST_B</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/X2_CLK_B" type="logic">
+               <obj_property name="ElementShortName">X2_CLK_B</obj_property>
+               <obj_property name="ObjectShortName">X2_CLK_B</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/X2_DOUT_B" type="array">
+               <obj_property name="ElementShortName">X2_DOUT_B[31:0]</obj_property>
+               <obj_property name="ObjectShortName">X2_DOUT_B[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/X2_DIN_B" type="array">
+               <obj_property name="ElementShortName">X2_DIN_B[31:0]</obj_property>
+               <obj_property name="ObjectShortName">X2_DIN_B[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/X2_WEN_B" type="array">
+               <obj_property name="ElementShortName">X2_WEN_B[3:0]</obj_property>
+               <obj_property name="ObjectShortName">X2_WEN_B[3:0]</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/X2_EN_B" type="logic">
+               <obj_property name="ElementShortName">X2_EN_B</obj_property>
+               <obj_property name="ObjectShortName">X2_EN_B</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/X2_ADDR_B" type="array">
+               <obj_property name="ElementShortName">X2_ADDR_B[31:0]</obj_property>
+               <obj_property name="ObjectShortName">X2_ADDR_B[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/X2_RST_A" type="logic">
+               <obj_property name="ElementShortName">X2_RST_A</obj_property>
+               <obj_property name="ObjectShortName">X2_RST_A</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/X2_CLK_A" type="logic">
+               <obj_property name="ElementShortName">X2_CLK_A</obj_property>
+               <obj_property name="ObjectShortName">X2_CLK_A</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/X2_DOUT_A" type="array">
+               <obj_property name="ElementShortName">X2_DOUT_A[31:0]</obj_property>
+               <obj_property name="ObjectShortName">X2_DOUT_A[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/X2_DIN_A" type="array">
+               <obj_property name="ElementShortName">X2_DIN_A[31:0]</obj_property>
+               <obj_property name="ObjectShortName">X2_DIN_A[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/X2_WEN_A" type="array">
+               <obj_property name="ElementShortName">X2_WEN_A[3:0]</obj_property>
+               <obj_property name="ObjectShortName">X2_WEN_A[3:0]</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/X2_EN_A" type="logic">
+               <obj_property name="ElementShortName">X2_EN_A</obj_property>
+               <obj_property name="ObjectShortName">X2_EN_A</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/X2_ADDR_A" type="array">
+               <obj_property name="ElementShortName">X2_ADDR_A[31:0]</obj_property>
+               <obj_property name="ObjectShortName">X2_ADDR_A[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group167" type="group">
+            <obj_property name="label">X1(bram)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_infer_core_top/X1_RST_B" type="logic">
+               <obj_property name="ElementShortName">X1_RST_B</obj_property>
+               <obj_property name="ObjectShortName">X1_RST_B</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/X1_CLK_B" type="logic">
+               <obj_property name="ElementShortName">X1_CLK_B</obj_property>
+               <obj_property name="ObjectShortName">X1_CLK_B</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/X1_DOUT_B" type="array">
+               <obj_property name="ElementShortName">X1_DOUT_B[31:0]</obj_property>
+               <obj_property name="ObjectShortName">X1_DOUT_B[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/X1_DIN_B" type="array">
+               <obj_property name="ElementShortName">X1_DIN_B[31:0]</obj_property>
+               <obj_property name="ObjectShortName">X1_DIN_B[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/X1_WEN_B" type="array">
+               <obj_property name="ElementShortName">X1_WEN_B[3:0]</obj_property>
+               <obj_property name="ObjectShortName">X1_WEN_B[3:0]</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/X1_EN_B" type="logic">
+               <obj_property name="ElementShortName">X1_EN_B</obj_property>
+               <obj_property name="ObjectShortName">X1_EN_B</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/X1_ADDR_B" type="array">
+               <obj_property name="ElementShortName">X1_ADDR_B[31:0]</obj_property>
+               <obj_property name="ObjectShortName">X1_ADDR_B[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/X1_RST_A" type="logic">
+               <obj_property name="ElementShortName">X1_RST_A</obj_property>
+               <obj_property name="ObjectShortName">X1_RST_A</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/X1_CLK_A" type="logic">
+               <obj_property name="ElementShortName">X1_CLK_A</obj_property>
+               <obj_property name="ObjectShortName">X1_CLK_A</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/X1_DOUT_A" type="array">
+               <obj_property name="ElementShortName">X1_DOUT_A[31:0]</obj_property>
+               <obj_property name="ObjectShortName">X1_DOUT_A[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/X1_DIN_A" type="array">
+               <obj_property name="ElementShortName">X1_DIN_A[31:0]</obj_property>
+               <obj_property name="ObjectShortName">X1_DIN_A[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/X1_WEN_A" type="array">
+               <obj_property name="ElementShortName">X1_WEN_A[3:0]</obj_property>
+               <obj_property name="ObjectShortName">X1_WEN_A[3:0]</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/X1_EN_A" type="logic">
+               <obj_property name="ElementShortName">X1_EN_A</obj_property>
+               <obj_property name="ObjectShortName">X1_EN_A</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/X1_ADDR_A" type="array">
+               <obj_property name="ElementShortName">X1_ADDR_A[31:0]</obj_property>
+               <obj_property name="ObjectShortName">X1_ADDR_A[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group182" type="group">
+            <obj_property name="label">error(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_infer_core_top/error" type="logic">
+               <obj_property name="ElementShortName">error</obj_property>
+               <obj_property name="ObjectShortName">error</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group184" type="group">
+         <obj_property name="label">C Inputs</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group185" type="group">
+            <obj_property name="label">in_stream(axis)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_infer_core_top/in_stream_3_3_TREADY" type="logic">
+               <obj_property name="ElementShortName">in_stream_3_3_TREADY</obj_property>
+               <obj_property name="ObjectShortName">in_stream_3_3_TREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/in_stream_3_3_TVALID" type="logic">
+               <obj_property name="ElementShortName">in_stream_3_3_TVALID</obj_property>
+               <obj_property name="ObjectShortName">in_stream_3_3_TVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/in_stream_3_3_TDATA" type="array">
+               <obj_property name="ElementShortName">in_stream_3_3_TDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">in_stream_3_3_TDATA[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/in_stream_3_2_TREADY" type="logic">
+               <obj_property name="ElementShortName">in_stream_3_2_TREADY</obj_property>
+               <obj_property name="ObjectShortName">in_stream_3_2_TREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/in_stream_3_2_TVALID" type="logic">
+               <obj_property name="ElementShortName">in_stream_3_2_TVALID</obj_property>
+               <obj_property name="ObjectShortName">in_stream_3_2_TVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/in_stream_3_2_TDATA" type="array">
+               <obj_property name="ElementShortName">in_stream_3_2_TDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">in_stream_3_2_TDATA[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/in_stream_3_1_TREADY" type="logic">
+               <obj_property name="ElementShortName">in_stream_3_1_TREADY</obj_property>
+               <obj_property name="ObjectShortName">in_stream_3_1_TREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/in_stream_3_1_TVALID" type="logic">
+               <obj_property name="ElementShortName">in_stream_3_1_TVALID</obj_property>
+               <obj_property name="ObjectShortName">in_stream_3_1_TVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/in_stream_3_1_TDATA" type="array">
+               <obj_property name="ElementShortName">in_stream_3_1_TDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">in_stream_3_1_TDATA[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/in_stream_3_0_TREADY" type="logic">
+               <obj_property name="ElementShortName">in_stream_3_0_TREADY</obj_property>
+               <obj_property name="ObjectShortName">in_stream_3_0_TREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/in_stream_3_0_TVALID" type="logic">
+               <obj_property name="ElementShortName">in_stream_3_0_TVALID</obj_property>
+               <obj_property name="ObjectShortName">in_stream_3_0_TVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/in_stream_3_0_TDATA" type="array">
+               <obj_property name="ElementShortName">in_stream_3_0_TDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">in_stream_3_0_TDATA[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/in_stream_2_3_TREADY" type="logic">
+               <obj_property name="ElementShortName">in_stream_2_3_TREADY</obj_property>
+               <obj_property name="ObjectShortName">in_stream_2_3_TREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/in_stream_2_3_TVALID" type="logic">
+               <obj_property name="ElementShortName">in_stream_2_3_TVALID</obj_property>
+               <obj_property name="ObjectShortName">in_stream_2_3_TVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/in_stream_2_3_TDATA" type="array">
+               <obj_property name="ElementShortName">in_stream_2_3_TDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">in_stream_2_3_TDATA[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/in_stream_2_2_TREADY" type="logic">
+               <obj_property name="ElementShortName">in_stream_2_2_TREADY</obj_property>
+               <obj_property name="ObjectShortName">in_stream_2_2_TREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/in_stream_2_2_TVALID" type="logic">
+               <obj_property name="ElementShortName">in_stream_2_2_TVALID</obj_property>
+               <obj_property name="ObjectShortName">in_stream_2_2_TVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/in_stream_2_2_TDATA" type="array">
+               <obj_property name="ElementShortName">in_stream_2_2_TDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">in_stream_2_2_TDATA[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/in_stream_2_1_TREADY" type="logic">
+               <obj_property name="ElementShortName">in_stream_2_1_TREADY</obj_property>
+               <obj_property name="ObjectShortName">in_stream_2_1_TREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/in_stream_2_1_TVALID" type="logic">
+               <obj_property name="ElementShortName">in_stream_2_1_TVALID</obj_property>
+               <obj_property name="ObjectShortName">in_stream_2_1_TVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/in_stream_2_1_TDATA" type="array">
+               <obj_property name="ElementShortName">in_stream_2_1_TDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">in_stream_2_1_TDATA[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/in_stream_2_0_TREADY" type="logic">
+               <obj_property name="ElementShortName">in_stream_2_0_TREADY</obj_property>
+               <obj_property name="ObjectShortName">in_stream_2_0_TREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/in_stream_2_0_TVALID" type="logic">
+               <obj_property name="ElementShortName">in_stream_2_0_TVALID</obj_property>
+               <obj_property name="ObjectShortName">in_stream_2_0_TVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/in_stream_2_0_TDATA" type="array">
+               <obj_property name="ElementShortName">in_stream_2_0_TDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">in_stream_2_0_TDATA[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/in_stream_1_3_TREADY" type="logic">
+               <obj_property name="ElementShortName">in_stream_1_3_TREADY</obj_property>
+               <obj_property name="ObjectShortName">in_stream_1_3_TREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/in_stream_1_3_TVALID" type="logic">
+               <obj_property name="ElementShortName">in_stream_1_3_TVALID</obj_property>
+               <obj_property name="ObjectShortName">in_stream_1_3_TVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/in_stream_1_3_TDATA" type="array">
+               <obj_property name="ElementShortName">in_stream_1_3_TDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">in_stream_1_3_TDATA[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/in_stream_1_2_TREADY" type="logic">
+               <obj_property name="ElementShortName">in_stream_1_2_TREADY</obj_property>
+               <obj_property name="ObjectShortName">in_stream_1_2_TREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/in_stream_1_2_TVALID" type="logic">
+               <obj_property name="ElementShortName">in_stream_1_2_TVALID</obj_property>
+               <obj_property name="ObjectShortName">in_stream_1_2_TVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/in_stream_1_2_TDATA" type="array">
+               <obj_property name="ElementShortName">in_stream_1_2_TDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">in_stream_1_2_TDATA[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/in_stream_1_1_TREADY" type="logic">
+               <obj_property name="ElementShortName">in_stream_1_1_TREADY</obj_property>
+               <obj_property name="ObjectShortName">in_stream_1_1_TREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/in_stream_1_1_TVALID" type="logic">
+               <obj_property name="ElementShortName">in_stream_1_1_TVALID</obj_property>
+               <obj_property name="ObjectShortName">in_stream_1_1_TVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/in_stream_1_1_TDATA" type="array">
+               <obj_property name="ElementShortName">in_stream_1_1_TDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">in_stream_1_1_TDATA[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/in_stream_1_0_TREADY" type="logic">
+               <obj_property name="ElementShortName">in_stream_1_0_TREADY</obj_property>
+               <obj_property name="ObjectShortName">in_stream_1_0_TREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/in_stream_1_0_TVALID" type="logic">
+               <obj_property name="ElementShortName">in_stream_1_0_TVALID</obj_property>
+               <obj_property name="ObjectShortName">in_stream_1_0_TVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/in_stream_1_0_TDATA" type="array">
+               <obj_property name="ElementShortName">in_stream_1_0_TDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">in_stream_1_0_TDATA[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/in_stream_0_3_TREADY" type="logic">
+               <obj_property name="ElementShortName">in_stream_0_3_TREADY</obj_property>
+               <obj_property name="ObjectShortName">in_stream_0_3_TREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/in_stream_0_3_TVALID" type="logic">
+               <obj_property name="ElementShortName">in_stream_0_3_TVALID</obj_property>
+               <obj_property name="ObjectShortName">in_stream_0_3_TVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/in_stream_0_3_TDATA" type="array">
+               <obj_property name="ElementShortName">in_stream_0_3_TDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">in_stream_0_3_TDATA[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/in_stream_0_2_TREADY" type="logic">
+               <obj_property name="ElementShortName">in_stream_0_2_TREADY</obj_property>
+               <obj_property name="ObjectShortName">in_stream_0_2_TREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/in_stream_0_2_TVALID" type="logic">
+               <obj_property name="ElementShortName">in_stream_0_2_TVALID</obj_property>
+               <obj_property name="ObjectShortName">in_stream_0_2_TVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/in_stream_0_2_TDATA" type="array">
+               <obj_property name="ElementShortName">in_stream_0_2_TDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">in_stream_0_2_TDATA[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/in_stream_0_1_TREADY" type="logic">
+               <obj_property name="ElementShortName">in_stream_0_1_TREADY</obj_property>
+               <obj_property name="ObjectShortName">in_stream_0_1_TREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/in_stream_0_1_TVALID" type="logic">
+               <obj_property name="ElementShortName">in_stream_0_1_TVALID</obj_property>
+               <obj_property name="ObjectShortName">in_stream_0_1_TVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/in_stream_0_1_TDATA" type="array">
+               <obj_property name="ElementShortName">in_stream_0_1_TDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">in_stream_0_1_TDATA[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/in_stream_0_0_TREADY" type="logic">
+               <obj_property name="ElementShortName">in_stream_0_0_TREADY</obj_property>
+               <obj_property name="ObjectShortName">in_stream_0_0_TREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/in_stream_0_0_TVALID" type="logic">
+               <obj_property name="ElementShortName">in_stream_0_0_TVALID</obj_property>
+               <obj_property name="ObjectShortName">in_stream_0_0_TVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_infer_core_top/in_stream_0_0_TDATA" type="array">
+               <obj_property name="ElementShortName">in_stream_0_0_TDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">in_stream_0_0_TDATA[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>

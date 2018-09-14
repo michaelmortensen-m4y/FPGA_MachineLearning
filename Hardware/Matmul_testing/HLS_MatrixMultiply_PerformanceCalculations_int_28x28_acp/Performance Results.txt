@@ -1,0 +1,21 @@
+********** Matrix Multiply ********** int 28x28
+
+Calibrating the timer:
+init_time: 39 cycles
+curr_time: 67 cycles
+calibration: 28 cycles
+Loop time for 10000 iterations is 15002 cycles
+
+Running on SW:
+No error in SW calculation!
+Run time for SW on ARM Processor = 0.001456 seconds (145561 clock cycles)
+
+Resetting variables
+
+Running on HW:
+No error in HW calculation!
+Run time for HW on PL = 0.000031 seconds (3143 clock cycles)
+
+Speedup = 46.312759
+
+*************************************
