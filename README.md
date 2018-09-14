@@ -1,2 +1,2 @@
 # FPGA_MachineLearning
-FPGA implementation of machine learning for classification of tactile sensor input
+Machine Learning-Based Hardware Implementation of Tactile Data Classification
