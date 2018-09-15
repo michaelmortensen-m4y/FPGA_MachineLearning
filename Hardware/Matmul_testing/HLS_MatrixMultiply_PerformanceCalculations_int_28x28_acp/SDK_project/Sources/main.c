@@ -1,7 +1,6 @@
 /*
  * main.c
  *
- *  Created on: Jan 13, 2017
  *      Author: Michael Mortensen
  */
 
